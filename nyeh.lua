@@ -1,5 +1,5 @@
 ---@diagnostic disable: undefined-global, lowercase-global
-YimActions = gui.get_tab("YimActions")
+YimActions = gui.get_tab("Five M Anim")
 require ("animdata")
 json                    = json()
 local filteredAnims     = {}
