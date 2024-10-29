@@ -1,4 +1,4 @@
----@diagnostic disable: undefined-global, lowercase-global
+Ba---@diagnostic disable: undefined-global, lowercase-global
 YimActions = gui.get_tab("Five M Anim")
 require ("animdata")
 json                    = json()
@@ -301,7 +301,7 @@ YimActions:add_imgui(function()
             is_typing = false
         end
     end
-    ImGui.BeginTabBar("Samurai's YimActions", ImGuiTabBarFlags.None)
+    ImGui.BeginTabBar("Nyeh Anim", ImGuiTabBarFlags.None)
     if ImGui.BeginTabItem("Animations") then
         if tab1Sound then
             widgetSound("Nav2")
